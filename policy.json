@@ -1,0 +1,127 @@
+{
+  "version": "2024.05.08-001",
+  "updatedAt": "2024-05-08T12:00:00Z",
+  "rules": {
+    "adSelectors": [
+      "[id*=\"ad\"]",
+      "[class*=\"ad\"]",
+      "[id*=\"Ad\"]",
+      "[class*=\"Ad\"]",
+      "[id*=\"advert\"]",
+      "[class*=\"advert\"]",
+      "[id*=\"banner\"]",
+      "[class*=\"banner\"]",
+      "[id*=\"sponsor\"]",
+      "[class*=\"sponsor\"]",
+      "[id*=\"promo\"]",
+      "[class*=\"promo\"]",
+      "#content_left > div[style*=\"display:block !important\"]",
+      ".ec_ad_results",
+      ".c-container > .c-showurl",
+      "ins.adsbygoogle",
+      ".ads-ad",
+      ".commercial-unit",
+      "iframe[src*=\"ad\"]",
+      "iframe[src*=\"ads\"]",
+      "iframe[name*=\"ad\"]",
+      "[id*=\"google_ads\"]",
+      "[id*=\"__mgbanner\"]",
+      "[class*=\"adsense\"]",
+      "[class*=\"adbox\"]",
+      "[class*=\"ad-wrapper\"]",
+      "[class*=\"ad-container\"]",
+      "[data-ad-slot]",
+      "[data-ad-client]",
+      ".video-ads",
+      ".ytp-ad-module",
+      ".ytp-ad-overlay",
+      ".modal-ad",
+      ".popup-ad",
+      ".float-ad",
+      "[class*=\"modal\"][class*=\"ad\"]",
+      ".ad-section",
+      ".sponsored-content",
+      "[data-testid*=\"ad\"]"
+    ],
+    "popupSelectors": [
+      "[class*=\"modal\"]:not([class*=\"page\"]):not([class*=\"content\"])",
+      "[class*=\"dialog\"]:not(dialog)",
+      "[class*=\"popup\"]",
+      "[class*=\"pop-up\"]",
+      "[class*=\"overlay\"]:not([class*=\"image\"]):not([class*=\"video\"])",
+      "[class*=\"lightbox\"]",
+      "[class*=\"float-layer\"]",
+      ".login-modal",
+      ".register-modal",
+      ".signin-popup",
+      "[class*=\"force-login\"]",
+      "[class*=\"must-login\"]",
+      "[class*=\"coupon-popup\"]",
+      "[class*=\"redpacket\"]",
+      "[class*=\"lucky-draw\"]",
+      ".fixed-bottom-ad",
+      ".fixed-right-ad",
+      ".float-btn-ad",
+      "[style*=\"position: fixed\"][style*=\"z-index: 999\"]",
+      "[style*=\"position:fixed\"][style*=\"z-index:9999\"]"
+    ],
+    "trapSelectors": [
+      ".fake-close",
+      "[class*=\"close\"][style*=\"opacity: 0\"]",
+      "[class*=\"download\"][class*=\"btn\"]:not([href*=\"apple.com\"]):not([href*=\"play.google.com\"])",
+      "[class*=\"follow-btn\"][class*=\"trap\"]",
+      "[class*=\"subscribe\"][onclick*=\"wx\"]",
+      "[class*=\"sexy\"]",
+      "[class*=\"adult\"]",
+      "[title*=\"性感\"]",
+      "[title*=\"诱惑\"]",
+      "[class*=\"bet\"]",
+      "[class*=\"casino\"]",
+      "[class*=\"lottery\"][class*=\"trap\"]",
+      "a[onclick*=\"ad\"]",
+      "button[onclick*=\"ad\"]",
+      "[data-click*=\"ad\"]",
+      "[class*=\"auto-jump\"]",
+      "[data-autojump=\"true\"]",
+      ".bait-click",
+      "[class*=\"trap-click\"]"
+    ],
+    "trackerSelectors": [
+      "img[width=\"1\"][height=\"1\"]",
+      "img[width=\"0\"][height=\"0\"]",
+      "iframe[style*=\"display:none\"]",
+      "iframe[style*=\"visibility:hidden\"]"
+    ],
+    "domainBlacklist": [
+      "doubleclick.net",
+      "googleadservices.com",
+      "googlesyndication.com",
+      "googletagmanager.com",
+      "google-analytics.com",
+      "facebook.com/tr",
+      "amazon-adsystem.com",
+      "adsystem.amazon.com",
+      "outbrain.com",
+      "taboola.com",
+      "popads.net"
+    ],
+    "urlPatterns": [
+      {
+        "pattern": ".*\\.googleadservices\\.com.*",
+        "type": "ad",
+        "description": "Google Ads 服务"
+      },
+      {
+        "pattern": ".*\\.doubleclick\\.net.*",
+        "type": "ad",
+        "description": "DoubleClick 广告"
+      }
+    ]
+  },
+  "exceptions": [
+    {
+      "domain": "example.com",
+      "reason": "测试用可信站点"
+    }
+  ]
+}
