@@ -104,7 +104,7 @@
       "iframe[src*=\"pg-ad-b2.ws.126.net\"]",
       "iframe[src*=\"ads.music.126.net\"]",
       ".netease-ad",
-      ".163-ad",
+      "[class~=\"163-ad\"]",
       "iframe[src*=\"sinaads.com\"]",
       "iframe[src*=\"sax.sina.com.cn\"]",
       ".sinaads",
