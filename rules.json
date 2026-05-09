@@ -78,5 +78,8 @@
   { "id": 77, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*reyun.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
   { "id": 78, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*talkingdata.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
   { "id": 79, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*umeng.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
-  { "id": 80, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*growingio.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } }
+  { "id": 80, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*growingio.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
+  { "id": 81, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*s.click.taobao.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
+  { "id": 82, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*union-click.jd.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } },
+  { "id": 83, "priority": 1, "action": { "type": "block" }, "condition": { "urlFilter": "*p.pinduoduo.com*", "resourceTypes": ["script", "image", "xmlhttprequest", "sub_frame"] } }
 ]
